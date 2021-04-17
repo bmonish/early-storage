@@ -9,10 +9,21 @@
 }
 
 /* Banner */
+.btn-primary {
+    color: #fff ;
+    background-color: #F85A3A ;
+    border-color: #F85A3A;
+}
 
-.btn-outline-primary  {
-  color: red;
-  border-color: #f85a3a;
+.btn-primary:hover {
+    color: #F85A3A ;
+    background-color: #ffffff;
+    border-color: #F85A3A;
+}
+
+.btn-outline-primary {
+    color: #F85A3A ; 
+    border-color: #F85A3A ;
 }
 
 .btn-outline-primary:hover {
@@ -22,9 +33,8 @@
 }
 
 /* Mission Statement */
-#mission-statement,
-#testimonial {
-  background-color: #f85a3a;
+#mission-statement, #service, #testimonial{
+    background-color: #F85A3A ;
 }
 
 /* Gallery */
@@ -34,10 +44,17 @@
 
 .pricebox {
   height: 300px;
-  background-color: #f85a3a;
+  background-color: #eee;
+  /* border: 1px solid #F85A3A; */
+  box-shadow: 0px 3px #F85A3A;
   border-radius: 10px;
   transition-duration: 0.8s;
 }
-.pricebox:hover {
-  transform: scale(1.1);
+
+.fs-3, .fs-4 {
+  color: #F85A3A;
+}
+
+#pricing .fs-6 {
+  color: #000;
 }
