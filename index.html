@@ -149,7 +149,43 @@
         </div>
     </section>
     <!-- Contact Section -->
-
+    <section id="contact">
+        <div class="container p-5">
+            <div class="row display-6 text-center">
+                <div class="col pb-3">Contact Us</div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <form action="mailto:?subject=Contact from Website" method="POST" enctype="text/plain">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" name="Name" class="form-control" id="name" placeholder="Enter your name"
+                                required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" name="Email" class="form-control" id="email"
+                                placeholder="Enter your email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mobile" class="form-label">Mobile Number</label>
+                            <input type="text" name="Mobile" class="form-control" id="mobile"
+                                placeholder="Enter your number" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea name="Message" class="form-control" id="message" rows="3"
+                                placeholder="Enter your message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-outline-primary font-weight-bold">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row justify-content-center text-center pt-5">
+                <div class="col-lg-4">John Doe<br />johndoe@gmail.com<br />+91 1234567890</div>
+            </div>
+        </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
