@@ -17,6 +17,7 @@
 .btn-outline-primary:hover {
     color: #fff ;
     background-color: #F85A3A ;
+    border: 0.1px #F85A3A solid;
 }
 
 /* Mission Statement */
@@ -29,3 +30,12 @@
     height:300px;
 }
 
+.pricebox {
+    height: 300px;
+    background-color: #f85a3a;
+    border-radius: 10px;
+    transition-duration: 1s;
+  }
+.row>.pricebox:nth-child(2){
+    transform: scale(1.1);   
+}
