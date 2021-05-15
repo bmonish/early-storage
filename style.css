@@ -3,20 +3,29 @@
     padding: 0;
 }
 
+/* Navbar */
 .navbar {
-    padding: 25px 10% 0 10% !important;
+    padding: 25px 10% 0 10% ;
 }
 
+/* Banner */
 .btn-outline-primary {
-    color: #F85A3A !important; 
-    border-color: #F85A3A !important;
+    color: #F85A3A ; 
+    border-color: #F85A3A ;
 }
 
 .btn-outline-primary:hover {
-    color: #fff !important;
-    background-color: #F85A3A !important;
+    color: #fff ;
+    background-color: #F85A3A ;
 }
 
+/* Mission Statement */
 #mission-statement {
-    background-color: #F85A3A !important;
+    background-color: #F85A3A ;
 }
+
+/* Gallery */
+.gallerybox img{
+    height:300px;
+}
+
