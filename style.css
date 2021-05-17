@@ -37,3 +37,6 @@
   border-radius: 10px;
   transition-duration: 1s;
 }
+.pricebox:hover {
+  transform: scale(1.1);
+}
