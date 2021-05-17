@@ -1,31 +1,43 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 /* Navbar */
 .navbar {
-    padding: 25px 10% 0 10% ;
+  padding: 25px 10% 0 10%;
 }
 
 /* Banner */
-.btn-outline-primary {
-    color: #F85A3A ; 
-    border-color: #F85A3A ;
+
+.btn-outline-primary  {
+  color: red;
+  border-color: #f85a3a;
 }
 
 .btn-outline-primary:hover {
-    color: #fff ;
-    background-color: #F85A3A ;
+  color: #fff;
+  background-color: #f85a3a;
+  border: 0.1px #f85a3a solid;
 }
 
 /* Mission Statement */
-#mission-statement, #testimonial{
-    background-color: #F85A3A ;
+#mission-statement,
+#testimonial {
+  background-color: #f85a3a;
 }
 
 /* Gallery */
-.gallerybox img{
-    height:300px;
+.gallerybox img {
+  height: 300px;
 }
 
+.pricebox {
+  height: 300px;
+  background-color: #f85a3a;
+  border-radius: 10px;
+  transition-duration: 0.8s;
+}
+.pricebox:hover {
+  transform: scale(1.1);
+}
