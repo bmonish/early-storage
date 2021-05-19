@@ -21,6 +21,17 @@
   border-color: #f85a3a;
 }
 
+.btn-primary:not(:disabled):not(.disabled):active {
+  color: #f85a3a;
+  background-color: #ffffff;
+  border-color: #f85a3a;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 .btn-outline-primary {
   color: #f85a3a;
   border-color: #f85a3a;
@@ -30,6 +41,17 @@
   color: #fff;
   background-color: #f85a3a;
   border: 0.1px #f85a3a solid;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active {
+  color: #f85a3a;
+  background-color: #ffffff;
+  border-color: #f85a3a;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 /* Mission Statement */
